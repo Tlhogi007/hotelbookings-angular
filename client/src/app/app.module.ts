@@ -4,8 +4,10 @@ import {BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AccomdationComponent } from './pages/accomdation/accomdation.component';
-import { RoomsComponent } from './pages/accomdation/rooms/rooms.component';
+
+
+import { AccommodationComponent } from './pages/accommodation/accommodation.component';
+import { RoomsComponent } from './pages/accommodation/rooms/rooms.component';
 import { FoodAndBeverageComponent } from './pages/food-and-beverage/food-and-beverage.component';
 import { RestaurantComponent } from './pages/food-and-beverage/restaurant/restaurant.component';
 import { BarsComponent } from './pages/food-and-beverage/bars/bars.component';
@@ -27,7 +29,7 @@ import { SignupComponent } from './pages/auth/signup/signup.component';
 @NgModule({
   declarations: [
     AppComponent,
-    AccomdationComponent,
+    AccommodationComponent,
     RoomsComponent,
     FoodAndBeverageComponent,
     RestaurantComponent,
