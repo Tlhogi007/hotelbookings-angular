@@ -5,12 +5,14 @@ import { SigninComponent } from './pages/auth/signin/signin.component';
 import { SignupComponent } from './pages/auth/signup/signup.component';
 import { CelebrationsComponent } from './pages/celebrations/celebrations.component';
 import { FoodAndBeverageComponent } from './pages/food-and-beverage/food-and-beverage.component';
+import { HomeComponent } from './pages/home/home.component';
 import { LifestyleComponent } from './pages/lifestyle/lifestyle.component';
 import { OffersComponent } from './pages/offers/offers.component';
 import { WeddingsComponent } from './pages/weddings/weddings.component';
 
 const routes: Routes = [
-  { path:'accommodation',component:AccommodationComponent},
+  {path:'',component:HomeComponent},
+  {path:'accommodation',component:AccommodationComponent},
   {path :'food-and-beverage',component:FoodAndBeverageComponent},
   {path:'lifestyle',component:LifestyleComponent},
   {path :'weddings',component:WeddingsComponent},
@@ -18,6 +20,7 @@ const routes: Routes = [
   {path:"celebrations",component:CelebrationsComponent},
   {path:'signin',component:SigninComponent},
   {path:'signup',component:SignupComponent},
+
 ];
 
 @NgModule({

@@ -23,6 +23,11 @@ import { OffersComponent } from './pages/offers/offers.component';
 import { AuthComponent } from './pages/auth/auth.component';
 import { SigninComponent } from './pages/auth/signin/signin.component';
 import { SignupComponent } from './pages/auth/signup/signup.component';
+import { HomeComponent } from './pages/home/home.component';
+import { NavigationComponent } from './components/navigation/navigation.component';
+import { HeaderComponent } from './components/navigation/header/header.component';
+import { SidenavComponent } from './components/navigation/sidenav/sidenav.component';
+import { NavtabsComponent } from './components/navigation/navtabs/navtabs.component';
 
 
 
@@ -45,7 +50,12 @@ import { SignupComponent } from './pages/auth/signup/signup.component';
     OffersComponent,
     AuthComponent,
     SigninComponent,
-    SignupComponent
+    SignupComponent,
+    HomeComponent,
+    NavigationComponent,
+    HeaderComponent,
+    SidenavComponent,
+    NavtabsComponent
   ],
   imports: [
     BrowserModule,
